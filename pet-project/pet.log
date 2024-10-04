@@ -20,3 +20,173 @@ uvicorn.access:466 - 172.19.0.1:36514 - "GET /api/v1/users/me HTTP/1.1" 401
 main:36 - Request: GET http://localhost:8000/api/v1/users/me
 main:41 - Completed in 0.02s | Status: 200
 uvicorn.access:466 - 172.19.0.1:40920 - "GET /api/v1/users/me HTTP/1.1" 200
+main:16 - LOGGING CONFIGURED
+uvicorn.error:62 - Application startup complete.
+main:12 - Completed in 0.00s | Status code: 404
+uvicorn.access:466 - 172.19.0.1:60670 - "GET / HTTP/1.1" 404
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:60680 - "GET /docs HTTP/1.1" 200
+main:12 - Completed in 0.02s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:60680 - "GET /openapi.json HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 404
+uvicorn.access:466 - 172.19.0.1:54108 - "GET / HTTP/1.1" 404
+main:12 - Completed in 0.00s | Status code: 404
+uvicorn.access:466 - 172.19.0.1:58312 - "GET / HTTP/1.1" 404
+main:16 - LOGGING CONFIGURED
+uvicorn.error:62 - Application startup complete.
+main:12 - Completed in 0.00s | Status code: 404
+uvicorn.access:466 - 172.19.0.1:53876 - "GET / HTTP/1.1" 404
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:53886 - "GET /docs HTTP/1.1" 200
+main:12 - Completed in 0.02s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:53886 - "GET /openapi.json HTTP/1.1" 200
+main:16 - LOGGING CONFIGURED
+uvicorn.error:62 - Application startup complete.
+main:12 - Completed in 0.00s | Status code: 404
+uvicorn.access:466 - 172.19.0.1:52372 - "GET / HTTP/1.1" 404
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:60050 - "GET /docs HTTP/1.1" 200
+main:12 - Completed in 0.02s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:60050 - "GET /openapi.json HTTP/1.1" 200
+main:12 - Completed in 0.08s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:48118 - "POST /api/v1/auth/login HTTP/1.1" 200
+main:12 - Completed in 0.02s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:44310 - "GET /api/v1/users/me HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 401
+uvicorn.access:466 - 172.19.0.1:48370 - "GET /api/v1/users/me HTTP/1.1" 401
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:46118 - "GET /api/v1/users/me HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:38644 - "GET /docs HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:38644 - "GET /openapi.json HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:38652 - "GET /docs HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:38652 - "GET /openapi.json HTTP/1.1" 200
+main:16 - LOGGING CONFIGURED
+uvicorn.error:62 - Application startup complete.
+main:12 - Completed in 0.00s | Status code: 404
+uvicorn.access:466 - 172.19.0.1:50404 - "GET / HTTP/1.1" 404
+main:12 - Completed in 0.00s | Status code: 404
+uvicorn.access:466 - 172.19.0.1:50420 - "GET /api HTTP/1.1" 404
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:39382 - "GET /docs HTTP/1.1" 200
+main:12 - Completed in 0.01s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:39382 - "GET /openapi.json HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:53026 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58436 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58436 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58436 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58436 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58436 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58436 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58446 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58446 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58446 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58446 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58446 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58446 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58446 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58446 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:58446 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 404
+uvicorn.access:466 - 172.19.0.1:46130 - "GET /api/ HTTP/1.1" 404
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:54492 - "GET /docs HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:54492 - "GET /openapi.json HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:45720 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:45720 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:45720 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:45720 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:45720 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:45720 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:45720 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:45720 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:52432 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:16 - LOGGING CONFIGURED
+uvicorn.error:62 - Application startup complete.
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:46430 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:34600 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:57784 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:41764 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:43624 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:12 - Completed in 0.01s | Status code: 422
+uvicorn.access:466 - 172.19.0.1:41068 - "POST /api/v1/auth/register HTTP/1.1" 422
+main:12 - Completed in 0.00s | Status code: 422
+uvicorn.access:466 - 172.19.0.1:49418 - "POST /api/v1/auth/register HTTP/1.1" 422
+main:12 - Completed in 0.01s | Status code: 422
+uvicorn.access:466 - 172.19.0.1:39098 - "POST /api/v1/auth/register HTTP/1.1" 422
+main:12 - Completed in 0.00s | Status code: 422
+uvicorn.access:466 - 172.19.0.1:49926 - "POST /api/v1/auth/register?%22username%22=%22your_username%22&%22password%22=%22your_password%22&%20%22email%22=%22your_email@example.com%22 HTTP/1.1" 422
+main:12 - Completed in 0.00s | Status code: 422
+uvicorn.access:466 - 172.19.0.1:34916 - "POST /api/v1/auth/register?%22username%22=%22your_username%22&%22password%22=%22your_password%22&%20%22email%22=%22your_email@example.com%22 HTTP/1.1" 422
+main:12 - Completed in 0.00s | Status code: 422
+uvicorn.access:466 - 172.19.0.1:35988 - "POST /api/v1/auth/register HTTP/1.1" 422
+main:12 - Completed in 0.00s | Status code: 422
+uvicorn.access:466 - 172.19.0.1:40920 - "POST /api/v1/auth/register HTTP/1.1" 422
+main:12 - Completed in 0.00s | Status code: 422
+uvicorn.access:466 - 172.19.0.1:56278 - "POST /api/v1/auth/register HTTP/1.1" 422
+main:12 - Completed in 0.00s | Status code: 405
+uvicorn.access:466 - 172.19.0.1:39762 - "OPTIONS /api/v1/auth/register HTTP/1.1" 405
+main:16 - LOGGING CONFIGURED
+uvicorn.error:62 - Application startup complete.
+main:12 - Completed in 0.01s | Status code: 422
+uvicorn.access:466 - 172.19.0.1:40320 - "POST /api/v1/auth/register HTTP/1.1" 422
+main:12 - Completed in 0.00s | Status code: 404
+uvicorn.access:466 - 172.19.0.1:57982 - "GET / HTTP/1.1" 404
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:57984 - "GET /docs HTTP/1.1" 200
+main:12 - Completed in 0.01s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:57984 - "GET /openapi.json HTTP/1.1" 200
+main:12 - Completed in 0.09s | Status code: 201
+uvicorn.access:466 - 172.19.0.1:41780 - "POST /api/v1/auth/register HTTP/1.1" 201
+main:12 - Completed in 0.06s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:45388 - "POST /api/v1/auth/login HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:45388 - "OPTIONS /api/v1/users/me HTTP/1.1" 200
+main:12 - Completed in 0.01s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:45388 - "GET /api/v1/users/me HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:37514 - "OPTIONS /api/v1/auth/register HTTP/1.1" 200
+main:12 - Completed in 0.07s | Status code: 201
+uvicorn.access:466 - 172.19.0.1:37514 - "POST /api/v1/auth/register HTTP/1.1" 201
+main:12 - Completed in 0.00s | Status code: 400
+uvicorn.access:466 - 172.19.0.1:37710 - "POST /api/v1/auth/register HTTP/1.1" 400
+main:12 - Completed in 0.06s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:39580 - "POST /api/v1/auth/login HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:39580 - "OPTIONS /api/v1/users/me HTTP/1.1" 200
+main:12 - Completed in 0.00s | Status code: 200
+uvicorn.access:466 - 172.19.0.1:39580 - "GET /api/v1/users/me HTTP/1.1" 200

@@ -6,7 +6,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import ORJSONResponse
 from logging_config import configure_logging
 from api import router as api_router
-
+from fastapi.middleware.cors import CORSMiddleware
 
 logger = logging.getLogger(__name__)
 
@@ -23,6 +23,14 @@ async def lifespan(app: FastAPI):
 main_app = FastAPI(
     default_response_class=ORJSONResponse,
     lifespan=lifespan,
+)
+
+main_app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Замените "*" на конкретные домены, если нужно
+    allow_credentials=True,
+    allow_methods=["*"],  # Разрешить все методы, включая OPTIONS
+    allow_headers=["*"],
 )
 
 main_app.include_router(
